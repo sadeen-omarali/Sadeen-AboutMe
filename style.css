@@ -1,0 +1,27 @@
+p{
+    color :red;
+}h2::before{
+    content:"🌟";
+    color:gold;
+}
+h2::afteer{
+    content:"🌟";
+    color:gold;
+}
+button:hover{
+    background-color:blue;
+    color:white;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: antiquewhite;
+     display :flex;
+    flex-direction:row;
+}
+.item1,.item2,.item3,.item4{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    align-self:center;
+}
